@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;300;400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Vazirmatn", ui-sans-serif, system-ui, sans-serif;
+  --color-brand-green: #1a4d2e;
+  --color-brand-accent: #4f6f52;
+}
+
+body {
+  direction: rtl;
+  background-color: #f8fafc;
+}
+
+.glass-morphism {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
